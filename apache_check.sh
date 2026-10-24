@@ -7,3 +7,6 @@ if systemctl is-active --quiet apache2; then
 else
     echo "Apache is not running."
 fi
+
+echo "Health check completed."
+
